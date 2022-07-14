@@ -1,0 +1,47 @@
+.texto {
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 20px;
+    }
+
+    hr {
+        border-color: #007BFF;
+        background: #007BFF;
+        opacity: 100%;
+        height: 4px;
+        width: 70%;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    &__Iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+}

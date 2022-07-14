@@ -1,0 +1,9 @@
+.productos {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=productos.css.map */

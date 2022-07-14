@@ -1,0 +1,48 @@
+#productos {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    width: 93%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $colorDeBloque;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 2rem;
+
+    &__uno {
+        display: flex;
+        width: 46%;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 5rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__dos {
+        display: flex;
+        width: 46%;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__titulo {
+        color: $colorLogo;
+    }
+}

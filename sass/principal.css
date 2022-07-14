@@ -1,0 +1,41 @@
+.texto {
+  margin-top: 2rem;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.texto p {
+  font-size: 20px;
+}
+.texto hr {
+  border-color: #007BFF;
+  background: #007BFF;
+  opacity: 100%;
+  height: 4px;
+  width: 70%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.footer__Iconos {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.footer__Iconos p {
+  font-size: 20px;
+}
+.footer__Iconos a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=principal.css.map */
