@@ -15,7 +15,8 @@
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: $colorDeBloque;
+    background: rgb(204, 205, 208);
+    background: linear-gradient(135deg, rgba(204, 205, 208, 1) 15%, rgba(220, 221, 225, 1) 53%, rgba(255, 255, 255, 1) 100%);
     flex-direction: row;
     border-radius: 10px;
     gap: 2rem;

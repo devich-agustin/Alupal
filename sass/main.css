@@ -9,13 +9,6 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  /*     hr {
-      border-color: #007BFF;
-      background: #007BFF;
-      opacity: 100%;
-      height: 4px;
-      width: 70%;
-  } */
 }
 .texto p {
   font-size: 20px;
@@ -31,7 +24,7 @@
 .footer__Iconos {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 5rem;
 }
 .footer__Iconos p {
   font-size: 20px;
@@ -39,6 +32,9 @@
 .footer__Iconos a {
   text-decoration: none;
   color: black;
+}
+.footer__Iconos a:hover {
+  color: #0D6EFD;
 }
 
 #productos {
@@ -58,7 +54,8 @@
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #DCDDE1;
+  background: rgb(204, 205, 208);
+  background: linear-gradient(135deg, rgb(204, 205, 208) 15%, rgb(220, 221, 225) 53%, rgb(255, 255, 255) 100%);
   flex-direction: row;
   border-radius: 10px;
   gap: 2rem;
@@ -102,17 +99,52 @@
   border-color: transparent;
 }
 
-.contacto1 {
-  border-color: transparent;
+.infoContacto {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  flex-direction: column;
+  gap: 3rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
 }
-
-#contact-us {
+.infoContacto__Izq {
+  width: 50%;
+  height: auto;
   display: flex;
   padding: 1rem;
   justify-content: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
   border-radius: 10px;
-  width: 60%;
+  background: rgb(204, 205, 208);
+  background: linear-gradient(135deg, rgb(204, 205, 208) 15%, rgb(220, 221, 225) 53%, rgb(255, 255, 255) 83%);
+}
+.infoContacto__Der {
+  width: 43%;
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+.infoContacto__Der iframe {
+  border-radius: 10px;
+}
+
+#contact-us {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 48%;
   margin: 1rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -120,12 +152,14 @@
   margin-right: auto;
 }
 #contact-us form {
-  background-color: #dcdde1;
+  vertical-align: top;
   padding: 1rem;
   border-radius: 10px;
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
+  background: rgb(204, 205, 208);
+  background: linear-gradient(135deg, rgb(204, 205, 208) 15%, rgb(220, 221, 225) 53%, rgb(255, 255, 255) 83%);
 }
 #contact-us form input {
   padding: 0.2rem;
@@ -143,6 +177,38 @@
   border: none;
 }
 
+/* MEDIA QUERIES DE LA PAGINA */
+@media screen and (max-width: 1440px) {
+  #productos__Galeria {
+    align-items: center;
+  }
+  #contact-us {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .infoContacto {
+    width: 100%;
+    height: auto;
+  }
+  .infoContacto__Izq {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact-us {
+    width: 100%;
+  }
+  #contact-us form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /* ESTILOS SCSS */
 .cajaF {
   width: 98%;

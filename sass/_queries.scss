@@ -1,0 +1,42 @@
+/* MEDIA QUERIES DE LA PAGINA */
+
+@media screen and (max-width: 1440px) {
+    #productos__Galeria {
+        align-items: center;
+    }
+
+    #contact-us {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .infoContacto {
+        width: 100%;
+        height: auto;
+    }
+
+    .infoContacto__Izq {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-us {
+        width: 100%;
+    }
+
+    #contact-us form {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {}
