@@ -9,16 +9,16 @@
   align-content: center;
   align-items: center;
   justify-content: center;
+  /*     hr {
+      border-color: #007BFF;
+      background: #007BFF;
+      opacity: 100%;
+      height: 4px;
+      width: 70%;
+  } */
 }
 .texto p {
   font-size: 20px;
-}
-.texto hr {
-  border-color: #007BFF;
-  background: #007BFF;
-  opacity: 100%;
-  height: 4px;
-  width: 70%;
 }
 
 .footer {
@@ -54,7 +54,7 @@
 
 .contenedor {
   display: flex;
-  width: 93%;
+  width: 94%;
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -85,4 +85,77 @@
 }
 .contenedor__titulo {
   color: #0632AD;
+}
+
+#productos__Galeria {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#productos__Galeria div {
+  border-color: transparent;
+}
+
+.contacto1 {
+  border-color: transparent;
+}
+
+#contact-us {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 60%;
+  margin: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact-us form {
+  background-color: #dcdde1;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#contact-us form input {
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+#contact-us form #hola {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #0632ad;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+}
+
+/* ESTILOS SCSS */
+.cajaF {
+  width: 98%;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cajaF__linea {
+  border-color: #0D6EFD;
+  background: #0D6EFD;
+  opacity: 100%;
+  height: 3.7px;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

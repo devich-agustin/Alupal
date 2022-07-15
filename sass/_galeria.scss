@@ -1,0 +1,15 @@
+#productos__Galeria {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+        border-color: transparent;
+    }
+}

@@ -3,3 +3,25 @@
 @import 'variables';
 @import 'principal';
 @import 'productos';
+@import 'galeria';
+@import 'nosotros';
+@import 'contacto';
+
+/* ESTILOS SCSS */
+
+.cajaF {
+    width: 98%;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    &__linea {
+        border-color: $colorPrincipal;
+        background: $colorPrincipal;
+        opacity: 100%;
+        height: 3.7px;
+        width: 100%;
+    }
+}
