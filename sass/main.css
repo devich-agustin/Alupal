@@ -8,6 +8,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
+  text-align: center;
   justify-content: center;
 }
 .texto p {
@@ -24,7 +25,8 @@
 .footer__Iconos {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 2rem;
+  margin-left: 2rem;
 }
 .footer__Iconos p {
   font-size: 20px;
@@ -177,7 +179,7 @@
   border: none;
 }
 
-/* MEDIA QUERIES DE LA PAGINA */
+/* MEDIA QUERIES 1440 PX */
 @media screen and (max-width: 1440px) {
   #productos__Galeria {
     align-items: center;
@@ -186,12 +188,20 @@
     width: 47%;
   }
 }
+/* MEDIA QUERIES 1024 PX */
 @media screen and (max-width: 1024px) {
+  .container-fluid .navbar-brand img {
+    width: 265px;
+    height: 75px;
+  }
+  .container-fluid .navbar .collapse ul {
+    gap: 1;
+  }
   .infoContacto {
     width: 100%;
     height: auto;
   }
-  .infoContacto__Izq {
+  .infoContacto .infoContacto__Izq {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -200,11 +210,70 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .infoContacto .infoContacto__Der {
+    width: 60%;
+    justify-content: center;
+  }
   #contact-us {
     width: 100%;
   }
   #contact-us form {
-    width: 50%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* MEDIA QUERIES 768 PX */
+/* MEDIA QUERIES    320 px */
+@media screen and (max-width: 320px) {
+  #imgPortada {
+    background-size: cover;
+    background-position: center;
+    width: 200%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .footer__Iconos {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 2rem;
+    align-items: center;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor__uno {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .contenedor__dos {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .infoContacto {
+    margin-left: 0;
+  }
+  .infoContacto .infoContacto__Izq {
+    width: 90%;
+  }
+  .infoContacto .infoContacto__Der {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  #contact-us form {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

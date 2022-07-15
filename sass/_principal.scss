@@ -7,6 +7,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    text-align: center;
     justify-content: center;
 
     p {
@@ -25,7 +26,8 @@
     &__Iconos {
         display: flex;
         flex-direction: row;
-        gap: 5rem;
+        gap: 2rem;
+        margin-left: 2rem;
 
         p {
             font-size: 20px;
