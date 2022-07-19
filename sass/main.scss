@@ -10,6 +10,30 @@
 
 /* ESTILOS SCSS */
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.7rem;
+}
+
+#MenuNavegacion ul li a:hover {
+    color: $colorPrincipal;
+}
+
 .cajaF {
     width: 98%;
     height: 10px;

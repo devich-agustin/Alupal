@@ -7,6 +7,10 @@
     margin-right: auto;
     justify-content: center;
     flex-wrap: wrap;
+
+    .efectProducto:hover {
+        transform: scale(1.18);
+    }
 }
 
 .contenedor {

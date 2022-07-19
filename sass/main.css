@@ -49,6 +49,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+#productos .efectProducto:hover {
+  transform: scale(1.18);
+}
 
 .contenedor {
   display: flex;
@@ -100,6 +103,13 @@
 #productos__Galeria div {
   border-color: transparent;
 }
+#productos__Galeria .galeriaFoto:hover {
+  transform: scale(1.2);
+}
+
+.cartaSuperior {
+  width: 50%;
+}
 
 .infoContacto {
   width: 50%;
@@ -109,6 +119,9 @@
   gap: 3rem;
   margin-left: 2rem;
   margin-top: 3rem;
+}
+.infoContacto a {
+  margin-bottom: 1rem;
 }
 .infoContacto__Izq {
   width: 50%;
@@ -224,6 +237,11 @@
   }
 }
 /* MEDIA QUERIES 768 PX */
+@media screen and (max-width: 768px) {
+  .cartaSuperior {
+    width: 70%;
+  }
+}
 /* MEDIA QUERIES    320 px */
 @media screen and (max-width: 320px) {
   #imgPortada {
@@ -277,8 +295,35 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .cartaSuperior {
+    width: 90%;
+  }
 }
 /* ESTILOS SCSS */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.7rem;
+}
+
+#MenuNavegacion ul li a:hover {
+  color: #0D6EFD;
+}
+
 .cajaF {
   width: 98%;
   height: 10px;
